@@ -9,7 +9,7 @@ Author: Jinfei Zhu
 - Data Cleaning with Dask
 - Analyzing the number of posts per day with Dask
   - Change UTC to datetime
-  - Compare if the distribution of certain flask is not even (for example, tax posts increase in tax season)
+  - Compare if the distribution of certain flair is not even (for example, tax posts increase in tax season)
 - Accelarating Scikit-Learn with Dask
   - Counting top words with TFIDF
   - Text Summation with TFIDF
