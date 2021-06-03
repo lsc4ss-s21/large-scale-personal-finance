@@ -48,3 +48,12 @@ Answer:	 bankruptcy
 ```
 
 
+# Reference
+```
+Dask Metadata: https://docs.dask.org/en/latest/dataframe-design.html#metadata
+Dask to_datetime(): https://docs.dask.org/en/latest/dataframe-api.html?highlight=to_datetime#dask.dataframe.to_datetime
+                  https://stackoverflow.com/questions/39584118/dask-dataframe-how-to-convert-column-to-to-datetime
+Time Module: https://docs.python.org/3/library/time.html#time.strftime
+
+```
+
