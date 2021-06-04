@@ -71,3 +71,4 @@ Spark-nlp:
 pyspark.ml:
 
 - CountVectorizer: https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.ml.feature.CountVectorizer.html
+- Topic Modeling: https://github.com/alejandronotario/LDA-Topic-Modeling/blob/master/pySpark/LDA_pySpark_2.ipynb, https://github.com/prrao87/topic-modelling/blob/master/src/notebooks/3_pyspark_lda.ipynb
