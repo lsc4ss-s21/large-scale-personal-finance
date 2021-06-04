@@ -32,7 +32,7 @@ Author: Jinfei Zhu
 
 Though studied people's discussion, as a researcher, my final goal is to ease people's financial burdens. 
 
-Many titles of Personal Finance Subreddit are questions, so I wonder if the pre-trained `sentence_detector_dl` and `google_t5_small_ssm_nq` model will answer questions properly. However, given the openness of questions from Reddit, which could triger good discussion but don't have a single answer, the automatically generated result turns out a little bit black humor...
+Many titles of Personal Finance Subreddit are questions, so I wonder if the pre-trained `sentence_detector_dl` and `google_t5_small_ssm_nq` model will answer questions properly. However, given the openness of questions from Reddit, which could triger good discussion but don't have a single correct answer, the automatically generated answers sound a little like black humor...
 
 ```
 Question: Do student loans or credit card debt take precedence?
@@ -47,4 +47,14 @@ Question: What happens with unused credit card accounts?
 Answer:	 bankruptcy
 ```
 
+
+# Reference
+
+Dask Metadata: https://docs.dask.org/en/latest/dataframe-design.html#metadata
+
+Dask to_datetime(): https://docs.dask.org/en/latest/dataframe-api.html?highlight=to_datetime#dask.dataframe.to_datetime, https://stackoverflow.com/questions/39584118/dask-dataframe-how-to-convert-column-to-to-datetime
+                  
+Time Module: https://docs.python.org/3/library/time.html#time.strftime
+
+Spark-nlp Text Summation: https://demo.johnsnowlabs.com/public/TEXT_SUMMARIZATION/
 
