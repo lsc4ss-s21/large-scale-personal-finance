@@ -5,20 +5,15 @@ This is the GitHub repository for the final project of MACS 30123 Large Scale Co
 Author: Jinfei Zhu
 
 # Structure of Project
-- Import Data to AWS S3 bucket
-- Data Cleaning with Dask
-- Analyzing the number of posts per day with Dask
+- Collect Data with Pushshift API and upload Data to AWS S3 bucket
+- Analyze the number of posts per day with Dask
   - Change UTC to datetime
   - Compare if the distribution of certain flair is not even (for example, tax posts increase in tax season)
-- Accelarating Scikit-Learn with Dask
-  - Counting top words with TFIDF
-  - Text Summation with TFIDF
-- Utilizing Sparknlp
-  - Text summation
-  - [Text classification ](https://demo.johnsnowlabs.com/public/NER_CLS_SNIPS/)
-  - Text annotated with identified Named Entities
-  - Comparing Text Summation Result of Scikit-Learn and Sparknlp
-- Use API Gateway and Flask to build an Analysis Dashboard
+- Spark Machine Learning and Spark NLP
+  - Predicting high score of Reddit Posts
+  - Topic Modeling with posts texts
+  - Text summation of posts and answering questions in posts' title
+
 
 
 
@@ -56,5 +51,10 @@ Dask to_datetime(): https://docs.dask.org/en/latest/dataframe-api.html?highlight
                   
 Time Module: https://docs.python.org/3/library/time.html#time.strftime
 
-Spark-nlp Text Summation: https://demo.johnsnowlabs.com/public/TEXT_SUMMARIZATION/
+Spark-nlp:
 
+- Text Summation: https://demo.johnsnowlabs.com/public/TEXT_SUMMARIZATION/
+
+pyspark.ml:
+
+- CountVectorizer: https://spark.apache.org/docs/latest/api/python/reference/api/pyspark.ml.feature.CountVectorizer.html
